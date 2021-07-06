@@ -33,4 +33,8 @@ Kartpostalda kullanacağımız fotoğrafı projeye sağtık directory bölümün
 
 ![asset](https://user-images.githubusercontent.com/63172521/124677320-d9924780-dec8-11eb-9d47-9a2f1c5b5cea.png)
 
+Veeee Sonundaaaa Hazıııır !!! Yoruldum :)
+
+![image](https://user-images.githubusercontent.com/63172521/124677646-95537700-dec9-11eb-974f-92f58b0b6cad.png)
+
 
