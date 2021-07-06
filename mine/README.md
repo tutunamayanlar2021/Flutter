@@ -1,4 +1,4 @@
-# mine
+# Kartpostal
 
 A new Flutter project.
 
@@ -16,5 +16,20 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
+## Uygulama Görüntüleri
+### Logo
+Flutter'ın logosunu değiştirip şeker fotoğrafı yaptım.Ve bunu yaparken şu siteden faydalandım: https://appicon.co/
+bu siteye girip seçtiğimiz fotoğrafı koyup zip dosyasınnı indiriyoruz. 
 
-![Screenshot_1625608943](https://user-images.githubusercontent.com/63172521/124674253-093e5100-dec3-11eb-86c6-99611fbdbc33.png)
+#### android için :
+android->app->main->res yollarını takip ederek res klasoründeki mipmaple başlayan dosyaları silip siteden indirdiğimiz zipteki mipmap dosyalarını yapıştırıyoruz.
+#### ios için :
+Runner klasörüne gidip "Assets." ile başlayan klasörü silip aynı isimde olan ziptekini yapıştırıyoruz.
+
+![image](https://user-images.githubusercontent.com/63172521/124675048-91712600-dec4-11eb-8212-19d6fa13eefd.png)
+
+### İmages
+Kartpostalda kullanacağımız fotoğrafı projeye sağtık directory bölümünden "images"diye bir klasör açıp buraya yapıştırıyoruz.Sonra pubspec.yaml a tıklayıp aşağıdaki gibi kolasörü belirtiyoruz.
+
+
+
