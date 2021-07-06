@@ -31,7 +31,6 @@ Runner klasörüne gidip "Assets." ile başlayan klasörü silip aynı isimde ol
 ### İmages
 Kartpostalda kullanacağımız fotoğrafı projeye sağtık directory bölümünden "images"diye bir klasör açıp buraya yapıştırıyoruz.Sonra pubspec.yaml a tıklayıp aşağıdaki gibi kolasörü belirtiyoruz.
 
-
-![Screenshot_1625608957](https://user-images.githubusercontent.com/63172521/124677461-3aba1b00-dec9-11eb-9a7f-956bbbd97392.png)
+![asset](https://user-images.githubusercontent.com/63172521/124677320-d9924780-dec8-11eb-9d47-9a2f1c5b5cea.png)
 
 
