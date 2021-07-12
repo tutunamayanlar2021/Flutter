@@ -20,3 +20,13 @@ samples, guidance on mobile development, and a full API reference.
 ### UYGULAMA 
 
 https://user-images.githubusercontent.com/63172521/125221108-6de91980-e2d0-11eb-9370-a81f87d68917.mp4
+
+### KAYNAKLAR
+
+KULLANILAN BUTON : https://api.flutter.dev/flutter/material/TextButton-class.html
+
+FONT : https://fonts.google.com/
+
+
+
+
