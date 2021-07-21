@@ -20,7 +20,7 @@ samples, guidance on mobile development, and a full API reference.
 
 https://user-images.githubusercontent.com/63172521/126517450-ff5ecb9a-ef1c-47a3-b494-3257199977cb.mp4
 
-### İkonlar için [pubspec.yaml](https://github.com/tutunamayanlar2021/Flutter/blob/main/flutter_application_1/pubspec.yaml) dosyasına aşagıdaki eklemeyi yapıyoruz ve pub get yapıyoruz.
+### İkonlar için [pubspec.yaml](https://github.com/tutunamayanlar2021/Flutter/blob/main/flutter_application_1/pubspec.yaml) dosyasına aşagıdaki eklemeyi yapıp pub get yapıyoruz.
 ```dart
 dependencies:
   flutter:
