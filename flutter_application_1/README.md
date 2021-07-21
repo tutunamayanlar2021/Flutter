@@ -14,9 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+#### UYGULAMA AMACI
 
+Kullanıcının cinsiyeti,boyu,kilosu,spor yaptığı gün sayisi ve kullandığı sigaraya bağlı olarak yaşam süresini hesaplayan program.
 
-## UYGULAMA GÖRÜNTÜLERİ
+### UYGULAMA GÖRÜNTÜLERİ
 
 https://user-images.githubusercontent.com/63172521/126517450-ff5ecb9a-ef1c-47a3-b494-3257199977cb.mp4
 
