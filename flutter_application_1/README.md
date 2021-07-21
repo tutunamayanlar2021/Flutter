@@ -20,4 +20,11 @@ samples, guidance on mobile development, and a full API reference.
 
 https://user-images.githubusercontent.com/63172521/126517450-ff5ecb9a-ef1c-47a3-b494-3257199977cb.mp4
 
+`dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^9.1.0 `
+  
+
+
 
