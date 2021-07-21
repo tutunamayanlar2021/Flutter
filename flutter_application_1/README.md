@@ -18,6 +18,6 @@ samples, guidance on mobile development, and a full API reference.
 
 ## UYGULAMA GÖRÜNTÜLERİ
 
-https://user-images.githubusercontent.com/63172521/126513291-dbe0143d-71c5-4167-a8f9-c75cbb9cc585.mp4
+https://user-images.githubusercontent.com/63172521/126517450-ff5ecb9a-ef1c-47a3-b494-3257199977cb.mp4
 
 
