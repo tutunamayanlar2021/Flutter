@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/63172521/126517450-ff5ecb9a-ef1c-47a3-
 dependencies:
   flutter:
     sdk: flutter
-  font_awesome_flutter: ^9.1.0 
+  font_awesome_flutter: ^9.1.0
   ```
   
 
