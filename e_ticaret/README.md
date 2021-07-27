@@ -18,7 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 ## Not
 Uygulama geliştirilme aşamasındadır.Sonradan yapılan depişiklikler eklenecektir.
 
-### Gelinen noktaya kadar anlatacak olursam:
+### Gelinen noktada App:
 
-
+https://user-images.githubusercontent.com/63172521/127142276-bc75fc46-2577-4719-9298-e929b607e92e.mp4
 
