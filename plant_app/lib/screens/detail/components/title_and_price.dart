@@ -27,7 +27,7 @@ class TitleAndPrice extends StatelessWidget {
               fontSize: 20, fontWeight: FontWeight.w300, color: kPrimaryColor),
         ),
         trailing: Text(
-          "$price",
+          "\$$price",
           style: Theme.of(context)
               .textTheme
               .headline5

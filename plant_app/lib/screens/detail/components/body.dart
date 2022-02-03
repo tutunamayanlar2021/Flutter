@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:plant_app/constants.dart';
 import 'image_and_icon.dart';
@@ -18,7 +16,10 @@ class Body extends StatelessWidget {
           const TitleAndPrice(
             title: 'Angelica',
             country: 'Russia',
-            price: 400,
+            price: 500,
+          ),
+          const SizedBox(
+            height: 10,
           ),
           Row(
             children: [
@@ -46,7 +47,10 @@ class Body extends StatelessWidget {
                   onPressed: () {},
                   child: const Text(
                     "Desciription",
-                    style: TextStyle(color: Colors.black),
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16),
                   ),
                 ),
               ),
