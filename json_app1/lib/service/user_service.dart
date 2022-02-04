@@ -10,10 +10,11 @@ class UserService {
   Future<UsersModel?> getUsers() async {
     var response = await http.get(Uri.parse(url));
     if (response.statusCode == 200) {
-      var jsonResponce = UsersModel.fromJson(jsonDecode(response.body),"");
+      var jsonResponce = UsersModel.fromJson(jsonDecode(response.body), "");
       return jsonResponce;
     } else {
-    print("başarısız");
+      print("başarısız");
     }
+    return null;
   }
 }

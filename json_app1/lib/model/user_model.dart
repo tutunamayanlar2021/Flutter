@@ -113,15 +113,17 @@ class UsersModel {
     perPage = json['per_page']?.toInt();
     total = json['total']?.toInt();
     totalPages = json['total_pages']?.toInt();
-  if (json['data'] != null) {
-  final v = json['data'];
-  final arr0 = <UsersModelData>[];
-  v.forEach((v) {
-  arr0.add(UsersModelData.fromJson(v));
-  });
-    this.data = arr0;
+    if (json['data'] != null) {
+      final v = json['data'];
+      final arr0 = <UsersModelData>[];
+      v.forEach((v) {
+        arr0.add(UsersModelData.fromJson(v));
+      });
+      data = arr0;
     }
-    support = (json['support'] != null) ? UsersModelSupport.fromJson(json['support']) : null;
+    support = (json['support'] != null)
+        ? UsersModelSupport.fromJson(json['support'])
+        : null;
   }
   Map<String, dynamic> toJson() {
     final data = <String, dynamic>{};
@@ -132,9 +134,9 @@ class UsersModel {
     if (this.data != null) {
       final v = this.data;
       final arr0 = [];
-  v!.forEach((v) {
-  arr0.add(v!.toJson());
-  });
+      for (var v in v!) {
+        arr0.add(v!.toJson());
+      }
       data['data'] = arr0;
     }
     if (support != null) {

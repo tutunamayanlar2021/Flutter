@@ -15,18 +15,23 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  UserService _service = UserService();
+  final UserService _service = UserService();
   List<UsersModelData?> users = [];
+  bool? isLoading;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _service.getUsers().then((value) {
       if (value != null && value.data != null) {
         setState(() {
           users = value.data!.toList();
+          isLoading = true;
         });
-      } else {}
+      } else {
+        setState(() {
+          isLoading = false;
+        });
+      }
     });
   }
 
@@ -36,20 +41,28 @@ class _MyAppState extends State<MyApp> {
       title: 'Material App',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Material App Bar'),
+          backgroundColor: Colors.amber,
+          title: const Center(child: Text('Users')),
         ),
-        body: ListView.builder(
-          itemBuilder: (context, index) {
-            return ListTile(
-              title: Text(users[index]!.firstName! + users[index]!.lastName!),
-              subtitle: Text(users[index]!.email!),
-              leading: CircleAvatar(
-                backgroundImage: NetworkImage(users[index]!.avatar!),
-              ),
-            );
-          },
-          itemCount: users.length,
-        ),
+        body: isLoading == null
+            ? const Center(child: CircularProgressIndicator())
+            : isLoading == true
+                ? ListView.builder(
+                    itemBuilder: (context, index) {
+                      return ListTile(
+                        title: Text(
+                            users[index]!.firstName! + users[index]!.lastName!),
+                        subtitle: Text(users[index]!.email!),
+                        leading: CircleAvatar(
+                          backgroundImage: NetworkImage(users[index]!.avatar!),
+                        ),
+                      );
+                    },
+                    itemCount: users.length,
+                  )
+                : const Center(
+                    child: Text("Bir Sorun Oluştu"),
+                  ),
       ),
     );
   }
